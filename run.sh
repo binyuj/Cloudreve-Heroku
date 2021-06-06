@@ -11,7 +11,7 @@ SessionSecret = DwueqsOCChydmVIgTFtXNsqGNh3iUVOVyjdyBHPTppjG7FP1SiQYBOSZdOf35Pm7
 HashIDSalt = LzCgoB9pLdHYwsPQJ46AIDtLfkZ4KbtprcI8cxoKnwj58kFctbc9q3CmTUdXsCFP
 [Redis]
 Server = $REDIS_SERVER
-Password =
+Password = $REDIS_DB_Password
 DB = $REDIS_DB
 [Database]
 ; 数据库类型，目前支持 sqlite | mysql
